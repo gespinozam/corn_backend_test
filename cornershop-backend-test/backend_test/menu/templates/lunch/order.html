@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pedir almuerzo</title>
+
+  {% load bootstrap4 %}
+  {% bootstrap_css %}
+  {% load widget_tweaks %}
+
+</head>
+
+<body>
+
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    {{form.as_p}}
+    <button type="submit" class="btn btn-primary">Aceptar</button>
+    <a href="../" type="submit" class="btn btn-primary">Volver</a>
+  </form>
+
+</body>
+
+</html>

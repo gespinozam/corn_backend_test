@@ -1,0 +1,11 @@
+{% block content %}
+
+<h1>Singup</h1>
+<form class="site-form" action="/signup/" method="post">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="Singup">
+</form>
+<a href="../login/" type="submit" class="btn btn-primary">Back</a>
+
+{% endblock %}

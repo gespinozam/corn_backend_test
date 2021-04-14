@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mis ordenes</title>
+
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    {% load widget_tweaks %}
+
+</head>
+
+<body>
+    <h4>Detalles</h4>
+    {% for item in orders_list %}
+    <p><span class="txt_negrita">Fecha de orden:</span> <br> {{item.order_date}}</p>
+    <p><span class="txt_negrita">Menu solicitado:</span> <br> {{item.lunch.name}}</p>
+    <p><span class="txt_negrita">Personalización</span> <br> {{item.custom}}</p>
+    <p><span class="txt_negrita">---------------------------------------------</span></p>
+    {%endfor%}
+    <a href="../" type="submit" class="btn btn-primary">Volver</a>
+</body>
+
+</html>

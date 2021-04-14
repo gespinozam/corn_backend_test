@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Detalles</title>
+
+    {% load bootstrap4 %}
+    {% bootstrap_css %}
+    {% load widget_tweaks %}
+
+</head>
+
+<body>
+
+    <h4>Detalles</h4>
+
+    <p><span class="txt_negrita">Nombre:</span> <br> {{object.name}}</p>
+    <p><span class="txt_negrita">Ingredientes:</span> <br> {{object.details}}</p>
+    <p><span class="txt_negrita">Fecha menu:</span> <br> {{object.add_time}}</p>
+    <p><span class="txt_negrita">Actualizado:</span> <br> {{object.update_time}}</p>
+
+    <!-- Botón para volver a la vista principal (Home) -->
+    <a href="../" type="submit" class="btn btn-primary">Volver</a>
+
+</body>
+
+</html>

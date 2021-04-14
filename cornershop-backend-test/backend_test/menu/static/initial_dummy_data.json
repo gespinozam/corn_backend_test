@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Bistec a lo pobre",
+        "details": "Bistec de vacuno con papas fritas, cebolla caramelizada y huevo frito.",
+        "is_active": true,
+        "add_time": "2021-04-14"
+    },
+    {
+        "name": "Pollo al jugo",
+        "details": "Pollo a la cacerola con verduras y papas cocidas.",
+        "is_active": true,
+        "add_time": "2021-04-14"
+    },
+    {
+        "name": "Carne al horno",
+        "details": "Carne de vacuno gratinada con queso, acompañada de arroz blanco.",
+        "is_active": false,
+        "add_time": "2021-04-14"
+    },
+    {
+        "name": "Pescado frito con pure",
+        "details": "Reineta frita con pure de papas casero.",
+        "is_active": true,
+        "add_time": "2021-04-15"
+    },
+    {
+        "name": "Cazuela de pollo",
+        "details": "Cazuela de pechuga de pollo con arroz, papas y verduras.",
+        "is_active": true,
+        "add_time": "2021-04-15"
+    },
+    {
+        "name": "Pizza vegetariana",
+        "details": "Pizza de masa a la piedra con verduras salteadas.",
+        "is_active": false,
+        "add_time": "2021-04-15"
+    },
+    {
+        "name": "Zapallo italiano relleno",
+        "details": "Zapallo italiano al horno, relleno con sofrito de verduras y carne molida",
+        "is_active": true,
+        "add_time": "2021-04-16"
+    },
+    {
+        "name": "Ceviche mixto",
+        "details": "Ceviche de reineta, salmon y camaron, acompañado de verduras.",
+        "is_active": true,
+        "add_time": "2021-04-16"
+    },
+    {
+        "name": "Lomo saltado",
+        "details": "Lomo saltado con arroz y papas fritas.",
+        "is_active": false,
+        "add_time": "2021-04-16"
+    },
+    {
+        "name": "Tortilla de verduras",
+        "details": "Tortilla de espinaca o acelga, acompañada de arroz chaufan y salsa de soya",
+        "is_active": true,
+        "add_time": "2021-04-17"
+    },
+    {
+        "name": "Costillas de cerdo",
+        "details": "Costillas a la bbq al horno, con papas doradas y verdudas",
+        "is_active": true,
+        "add_time": "2021-04-17"
+    },
+    {
+        "name": "Tallarines a la bolognesa",
+        "details": "Tallarines blancos o integrales con salsa de tomates y carne molida",
+        "is_active": false,
+        "add_time": "2021-04-17"
+    }
+]
